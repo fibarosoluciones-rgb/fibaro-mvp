@@ -1,0 +1,12 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { @apply bg-white text-neutral-900; }
+.container-narrow { @apply max-w-3xl mx-auto; }
+.card { @apply rounded-2xl shadow p-4 bg-white border border-neutral-100; }
+.btn { @apply px-4 py-2 rounded-xl font-medium shadow; }
+.btn-primary { @apply btn bg-fibaro-primary text-white; }
+.badge { @apply inline-flex items-center gap-2 rounded-xl px-3 py-1 text-xs border; }

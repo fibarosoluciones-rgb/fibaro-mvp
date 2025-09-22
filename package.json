@@ -1,0 +1,30 @@
+{
+  "name": "fibaro-mvp",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "prisma generate || true"
+  },
+  "dependencies": {
+    "next": "14.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "next-intl": "^3.14.1",
+    "zustand": "^4.5.2",
+    "@supabase/supabase-js": "^2.45.4",
+    "@supabase/auth-helpers-nextjs": "^0.9.0",
+    "clsx": "^2.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "postcss": "^8.4.41",
+    "autoprefixer": "^10.4.20",
+    "tailwindcss": "^3.4.10",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.4"
+  }
+}
